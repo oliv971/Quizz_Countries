@@ -14,29 +14,21 @@ body{
 
 /************************ NAVBAR *************************/
 
-nav{
-    width: 100%;
-}
-
-.navbar-brand{
+.navbar-countries{
     text-transform: uppercase;
     transition: all 0.2s ease-in 0s;
 
 }
 
-
-.container-fluid a{
-    margin: auto;
-    color: white !important;
-    font-size: 16px;
-
+.nav-item {
+    margin: 0 30px;
 }
 
-.container-fluid a:focus{
-    color: tomato !important;
+a:focus{
+    color: orange !important;
 }
 
-.container-fluid a:hover{
+a:hover{
     color: orange !important;
 }
 
