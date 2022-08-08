@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/world-g1fba8f7c3_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/************************ NAVBAR *************************/
+
+nav{
+    width: 100%;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    transition: all 0.2s ease-in 0s;
+
+}
+
+
+.container-fluid a{
+    margin: auto;
+    color: white !important;
+    font-size: 16px;
+
+}
+
+.container-fluid a:focus{
+    color: tomato !important;
+}
+
+.container-fluid a:hover{
+    color: orange !important;
+}
+
+/************************ TITRE *************************/
+
+h3{
+    text-align: center;
+    color: tomato;
+    margin: 100px 25% 40px 25%;
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'roboto', sans-serif;
+    background-color: #343a40;
+    letter-spacing: 2px;
+    font-weight:bold;
+}
+
+.zone{
+    color: orange;
+}
+
+/************************ MODAL DIALOG *************************/
+.modal-header{
+    color: tomato;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+#info{
+    color: #0dcaf0;
+}
+
+#attention{
+    color: orange;
+    text-decoration: underline;
+}
+
+#jouer{
+    text-align: center;
+    color: orange;
+}
+
+#ok{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************************ CONTENEUR DRAPEAUX - QUESTIONS *************************/
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+/************************ DRAPEAUX *************************/
+
+.cadre{
+    
+    text-align: center;
+    width: 300px;
+    text-transform: uppercase;
+    margin: auto;
+    overflow: hidden;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    /* opacity: 0.9; */
+}
+
+/************************ QUESTIONS *************************/
+
+.form{
+    margin: 40px auto;
+    background-color: #343a40;
+    width: auto;
+    /* opacity: 0.9; */
+
+}
+
+.btn-group-vertical{
+    min-width: 400px;
+    min-height: 80px;
+}
+
+.btn-group-vertical a{
+    text-align: justify;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: white !important;
+}
+
+/************************ TIMER *************************/
+
+#next{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+  #myBar {
+    min-width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: tomato;
+    border-radius: 20px;
+  }
+
+  .white{
+      color: #343a40;
+  }
