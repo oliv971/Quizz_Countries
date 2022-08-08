@@ -197,12 +197,12 @@ function verify() {
 let time = document.getElementById("myBar");
 
 let intervalTime = null;    
-let compteur = 30; //INIT DU TIMER
+let compteur = 15; //INIT DU TIMER
 time.innerHTML = `00:${compteur}`;
 
 function timer(){
 
-    compteur = 30;
+    compteur = 15;
     intervalTime = setInterval(function decompte() {
         compteur--;
         
