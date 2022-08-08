@@ -151,3 +151,12 @@ img{
   .white{
       color: #343a40;
   }
+
+  @media screen and (max-width: 960px) {
+
+    h3{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
